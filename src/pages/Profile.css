@@ -1,0 +1,66 @@
+.profile-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.count-section{
+    border-right: 3px solid #c3c3c3;
+    
+}
+.container{
+    width: 76vw !important;
+}
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+
+}
+.custom-btn-white{
+    border: 2px solid #dee5e9;
+    background-color: #f9fcfd;
+    color: #000;
+   
+}
+.custom-btn-pink{
+    border: 2px solid #ed2a7e;
+    background-color: #ed2a7e;
+    color: #fff;
+   padding: 14px;
+   width: 160px;
+}
+.upload-box{
+    height: 400px;
+    width: 360px;
+    border: 5px dotted;
+    border-radius: 10px;
+}
+.dropZoneOverlay, .FileUpload {
+    width: 283px;
+    height: 71px;
+}
+
+.dropZoneOverlay {
+   
+    
+    font-family: cursive;
+    color: #7066fb;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    text-align: center;
+}
+
+.FileUpload {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+@media only screen and (max-width: 450px){
+    .container{
+        width: 100vw;
+
+    }
+    .card{
+        margin-bottom: 10px !important;
+    }
+}
